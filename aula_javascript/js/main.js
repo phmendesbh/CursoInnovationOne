@@ -71,25 +71,56 @@ alert("Bem vindo " + nome + " tem " + idade + " anos");
 // alert(d);
 // alert(d.getMonth());
 
-function soma(n1, n2) {
-    return n1 + n2;
+// function soma(n1, n2) {
+//     return n1 + n2;
+// }
+
+// function setReplace(frase, nome, novo_nome) {
+//     return frase.replace(nome, novo_nome);
+// }
+
+// var validar = "local"
+// function validaVar(param) {
+//     var validar = param;
+//     alert(validar);
+// }
+
+// alert(soma(5,3));
+// var frase = "Japão melhor time";
+// alert(frase);
+// alert(setReplace(frase,"Japão","Brasil"));
+
+// alert(validar);
+// validaVar("teste");
+// alert(validar);
+
+function botao(){
+    //alert("Obrigado");
+    document.getElementById("retorno");
+    document.getElementById("retorno").innerHTML = "<b>Clicado</b> o <i>botão</i>";
 }
 
-function setReplace(frase, nome, novo_nome) {
-    return frase.replace(nome, novo_nome);
+function redirecionar(){
+    //nova aba
+    //window.open("https://google.com.br");
+    //mesma aba
+    window.location.href = "https://google.com.br";
 }
 
-var validar = "local"
-function validaVar(param) {
-    var validar = param;
-    alert(validar);
+function negrito(elemento){
+    //document.getElementById("retorno").innerHTML = "Passou"
+    elemento.innerHTML = "Passou";
 }
 
-alert(soma(5,3));
-var frase = "Japão melhor time";
-alert(frase);
-alert(setReplace(frase,"Japão","Brasil"));
+function normal(elemento){
+    //document.getElementById("retorno").innerHTML = "Saiu"
+    elemento.innerHTML = "Saiu";
+}
 
-alert(validar);
-validaVar("teste");
-alert(validar);
+function carregar(){
+    alert("Carregado");
+}
+
+function funcaoChange(selectObj){
+    console.log(selectObj.value);
+}
