@@ -1,5 +1,12 @@
-# CursoInnovationOne
+# 📄 Fullstack Developer Banco Carrefour
 Pequenos projetos criados durante treinamentos realizados pela Digital Innovation One
 
-Fullstack Developer Banco Carrefour
-https://web.digitalinnovation.one/track/fullstack-developer-banco-carrefour
+## 💾 Tecnologia utilizada
+
+- VSCode
+- C# - MVC / Testes Unitários
+- Python
+- Javascript
+
+## 🌎 Fonte de estudo
+- [Digital Innovation One](https://web.digitalinnovation.one/track/fullstack-developer-banco-carrefour "Fullstack Developer Banco Carrefour")
