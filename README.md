@@ -4,6 +4,8 @@ Pequenos projetos criados durante treinamentos realizados pela Digital Innovatio
 ## 💾 Tecnologia utilizada
 
 - VSCode
+- Visual Studio
+- PyCharm
 - C# - MVC / Testes Unitários
 - Python
 - Javascript
