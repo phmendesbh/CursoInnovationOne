@@ -67,6 +67,29 @@ alert("Bem vindo " + nome + " tem " + idade + " anos");
 //     console.log(x);
 // }
 
-var d = new Date();
-alert(d);
-alert(d.getMonth());
+// var d = new Date();
+// alert(d);
+// alert(d.getMonth());
+
+function soma(n1, n2) {
+    return n1 + n2;
+}
+
+function setReplace(frase, nome, novo_nome) {
+    return frase.replace(nome, novo_nome);
+}
+
+var validar = "local"
+function validaVar(param) {
+    var validar = param;
+    alert(validar);
+}
+
+alert(soma(5,3));
+var frase = "Japão melhor time";
+alert(frase);
+alert(setReplace(frase,"Japão","Brasil"));
+
+alert(validar);
+validaVar("teste");
+alert(validar);
