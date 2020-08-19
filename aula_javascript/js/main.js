@@ -20,9 +20,32 @@ alert("Bem vindo " + nome + " tem " + idade + " anos");
 // console.log(frase.replace("Japão","Brasil"))
 // console.log(frase.toUpperCase())
 
-var n1 = 5;
-var n2 = 3;
-console.log(n1 + n2);
-console.log(n1 - n2);
-console.log(n1 * n2);
-console.log(n1 / n2);
+// var n1 = 5;
+// var n2 = 3;
+// console.log(n1 + n2);
+// console.log(n1 - n2);
+// console.log(n1 * n2);
+// console.log(n1 / n2);
+
+// var lista = ["maça", "pera", "laranja"];
+// console.log(lista);
+// console.log(lista[1])
+
+// lista.push("uva");
+// console.log(lista)
+
+// lista.pop();
+// console.log(lista)
+// console.log(lista.length)
+// console.log(lista.reverse())
+// console.log(lista.toString())
+// console.log(lista.join("|"))
+
+
+// var fruta = {nome:"maca", cor:"vermelho"}
+// console.log(fruta);
+// console.log(fruta.nome);
+
+var frutas = [{nome:"maca", cor:"vermelho"}, {nome:"uva", cor:"roxo"}]
+console.log(frutas);
+console.log(frutas[1].nome);
